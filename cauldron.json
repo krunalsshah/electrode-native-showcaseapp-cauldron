@@ -53,7 +53,17 @@
               },
               "codePush": {}
             }
-          ]
+          ],
+          "config": {
+            "containerGenerator": {
+              "publishers": [
+                {
+                  "name": "github",
+                  "url": "git@github.com:electrode-io/electrode-native-showcaseapp-ios-container.git"
+                }
+              ]
+            }
+          }
         }
       ]
     }
