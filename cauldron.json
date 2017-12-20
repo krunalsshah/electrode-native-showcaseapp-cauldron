@@ -52,22 +52,30 @@
               "ernPlatformVersion": "0.11.0",
               "isReleased": false,
               "binary": null,
-              "yarnLocks": {},
-              "nativeDeps": [],
-              "miniApps": {
-                "container": []
+              "yarnLocks": {
+                "container": "4e54fa2728e08da074bbdfdff2206642f15eb092"
               },
-              "codePush": {}
+              "nativeDeps": [
+                "ern-color-picker-api@0.0.1",
+                "react-native@0.51.0",
+                "react-native-electrode-bridge@1.5.9",
+                "react-native-ernmovie-api@0.0.9",
+                "react-native-ernnavigation-api@0.0.4"
+              ],
+              "miniApps": {
+                "container": [
+                  "colorpickerminiapp@0.0.1",
+                  "movielistminiapp@0.0.9",
+                  "moviedetailsminiapp@0.0.8"
+                ]
+              },
+              "codePush": {},
+              "containerVersion": "1.0.0"
             }
           ],
           "config": {
             "containerGenerator": {
-              "publishers": [
-                {
-                  "name": "github",
-                  "url": "git@github.com:electrode-io/electrode-native-showcaseapp-ios-container.git"
-                }
-              ]
+              "containerVersion": "1.0.0"
             }
           }
         }
