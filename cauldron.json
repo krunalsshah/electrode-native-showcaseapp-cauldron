@@ -12,7 +12,8 @@
               "isReleased": false,
               "binary": null,
               "yarnLocks": {
-                "container": "dbf29612d530e34a1e883ff7c70e3f1de87cb893"
+                "container": "dbf29612d530e34a1e883ff7c70e3f1de87cb893",
+                "Staging": "15a92b4425fc0dabfd4444342d1a4e85737bf859"
               },
               "nativeDeps": [
                 "ern-color-picker-api@0.0.1",
@@ -29,7 +30,27 @@
                   "moviedetailsminiapp@0.0.8"
                 ]
               },
-              "codePush": {},
+              "codePush": {
+                "Staging": [
+                  {
+                    "metadata": {
+                      "deploymentName": "Staging",
+                      "isMandatory": false,
+                      "appVersion": "1.0.0",
+                      "size": 212440,
+                      "releaseMethod": "Upload",
+                      "label": "v1",
+                      "releasedBy": "deepu.eg@gmail.com",
+                      "rollout": 100
+                    },
+                    "miniapps": [
+                      "colorpickerminiapp@0.0.3",
+                      "movielistminiapp@0.0.9",
+                      "moviedetailsminiapp@0.0.8"
+                    ]
+                  }
+                ]
+              },
               "containerVersion": "1.0.1"
             }
           ],
