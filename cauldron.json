@@ -77,10 +77,10 @@
               "isReleased": false,
               "binary": null,
               "yarnLocks": {
-                "container": "4e54fa2728e08da074bbdfdff2206642f15eb092"
+                "container": "65f4d6f779fd03f63052e46113c4e5a770dd0ce9"
               },
               "codePush": {},
-              "containerVersion": "1.0.0",
+              "containerVersion": "1.0.1",
               "container": {
                 "nativeDeps": [
                   "ern-color-picker-api@0.0.1",
@@ -100,7 +100,7 @@
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.0",
+              "containerVersion": "1.0.1",
               "publishers": [
                 {
                   "name": "github",
