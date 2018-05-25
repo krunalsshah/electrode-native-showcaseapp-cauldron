@@ -1697,6 +1697,12 @@ ern-color-picker-api@0.0.1:
   dependencies:
     react-native-electrode-bridge "1.5.x"
 
+ern-showcase-navigation-api@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/ern-showcase-navigation-api/-/ern-showcase-navigation-api-0.0.2.tgz#b150c7c062370cc71b2326ff8edb8cc716433a3f"
+  dependencies:
+    react-native-electrode-bridge "1.5.x"
+
 error-ex@^1.2.0:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/error-ex/-/error-ex-1.3.1.tgz#f855a86ce61adc4e8621c3cda21e7a7612c3a8dc"
@@ -3111,6 +3117,15 @@ nanomatch@^1.2.9:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+nav-demo-miniapp@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/nav-demo-miniapp/-/nav-demo-miniapp-0.0.7.tgz#c8d59a66e959e5ae985176a8b4f774cc889791ff"
+  dependencies:
+    ern-showcase-navigation-api "0.0.2"
+    react "16.3.0-alpha.1"
+    react-native "0.54.0"
+    react-native-electrode-bridge "1.5.10"
 
 needle@^2.2.0:
   version "2.2.1"
