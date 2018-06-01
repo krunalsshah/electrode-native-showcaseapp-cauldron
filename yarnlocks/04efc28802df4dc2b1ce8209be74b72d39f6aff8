@@ -3118,9 +3118,9 @@ nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-nav-demo-miniapp@0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/nav-demo-miniapp/-/nav-demo-miniapp-0.0.9.tgz#df37e5fb7f9b692fea12271d6fa1aa79ce8157d1"
+nav-demo-miniapp@0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/nav-demo-miniapp/-/nav-demo-miniapp-0.0.10.tgz#131dc52f79ade4af2a399ec1d7a9cb364b36821c"
   dependencies:
     ern-showcase-navigation-api "0.0.2"
     react "16.3.0-alpha.1"
