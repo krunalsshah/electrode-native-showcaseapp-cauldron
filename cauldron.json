@@ -12,7 +12,7 @@
               "isReleased": false,
               "binary": null,
               "yarnLocks": {
-                "container": "04efc28802df4dc2b1ce8209be74b72d39f6aff8",
+                "container": "f58ca613cf8314887a1190ebbdd7da1efcd60d97",
                 "Staging": "15a92b4425fc0dabfd4444342d1a4e85737bf859"
               },
               "codePush": {
@@ -37,22 +37,22 @@
                   }
                 ]
               },
-              "containerVersion": "1.0.8",
+              "containerVersion": "1.0.9",
               "container": {
                 "nativeDeps": [
                   "ern-color-picker-api@0.0.1",
                   "react-native-ernmovie-api@0.0.9",
                   "react-native-ernnavigation-api@0.0.4",
-                  "ern-showcase-navigation-api@0.0.2",
                   "react-native@0.54.0",
                   "react-native-electrode-bridge@1.5.10",
-                  "react-native-code-push@5.3.0"
+                  "react-native-code-push@5.3.0",
+                  "ern-showcase-navigation-api@0.0.3"
                 ],
                 "miniApps": [
                   "colorpickerminiapp@0.0.6",
                   "movielistminiapp@0.0.14",
                   "moviedetailsminiapp@0.0.12",
-                  "nav-demo-miniapp@0.0.10"
+                  "nav-demo-miniapp@0.0.11"
                 ],
                 "jsApiImpls": []
               }
@@ -60,7 +60,7 @@
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.8",
+              "containerVersion": "1.0.9",
               "publishers": [
                 {
                   "name": "github",
