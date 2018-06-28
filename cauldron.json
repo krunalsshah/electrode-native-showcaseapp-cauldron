@@ -37,7 +37,7 @@
                   }
                 ]
               },
-              "containerVersion": "1.0.10",
+              "containerVersion": "1.0.11",
               "container": {
                 "nativeDeps": [
                   "ern-color-picker-api@0.0.1",
@@ -61,7 +61,7 @@
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.10",
+              "containerVersion": "1.0.11",
               "publishers": [
                 {
                   "name": "github",
