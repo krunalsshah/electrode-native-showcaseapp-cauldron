@@ -12,7 +12,7 @@
               "isReleased": false,
               "binary": null,
               "yarnLocks": {
-                "container": "f58ca613cf8314887a1190ebbdd7da1efcd60d97",
+                "container": "9b1bfa57d0f0b50c7f502d4a11ff9b6226954fbe",
                 "Staging": "15a92b4425fc0dabfd4444342d1a4e85737bf859"
               },
               "codePush": {
@@ -37,7 +37,7 @@
                   }
                 ]
               },
-              "containerVersion": "1.0.9",
+              "containerVersion": "1.0.10",
               "container": {
                 "nativeDeps": [
                   "ern-color-picker-api@0.0.1",
@@ -52,15 +52,16 @@
                   "colorpickerminiapp@0.0.6",
                   "movielistminiapp@0.0.14",
                   "moviedetailsminiapp@0.0.12",
-                  "nav-demo-miniapp@0.0.11"
+                  "nav-demo-miniapp@0.0.12"
                 ],
-                "jsApiImpls": []
+                "jsApiImpls": [],
+                "ernVersion": "1000.0.0"
               }
             }
           ],
           "config": {
             "containerGenerator": {
-              "containerVersion": "1.0.9",
+              "containerVersion": "1.0.10",
               "publishers": [
                 {
                   "name": "github",
