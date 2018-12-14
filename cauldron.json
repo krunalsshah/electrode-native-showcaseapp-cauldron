@@ -55,7 +55,9 @@
                   "nav-demo-miniapp@0.0.12"
                 ],
                 "jsApiImpls": [],
-                "ernVersion": "1000.0.0"
+                "ernVersion": "1000.0.0",
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
               }
             }
           ],
@@ -100,7 +102,9 @@
                   "movielistminiapp@0.0.9",
                   "moviedetailsminiapp@0.0.8"
                 ],
-                "jsApiImpls": []
+                "jsApiImpls": [],
+                "miniAppsBranches": [],
+                "jsApiImplsBranches": []
               }
             }
           ],
@@ -119,5 +123,5 @@
       ]
     }
   ],
-  "schemaVersion": "1.0.0"
+  "schemaVersion": "2.0.0"
 }
